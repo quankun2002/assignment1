@@ -1,9 +1,21 @@
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Le Anh Quan
+  ID: 3877457
+  Created  date: dd/mm/yyyy (e.g. 31/07/2023)
+  Last modified: dd/mm/yyyy (e.g. 05/08/2023)
+  Acknowledgement: Acknowledge the resources that you use here.
+ */
+
+
 import SwiftUI
 
 struct InfoView: View {
     
     let text: String
-    let url: String
     let imageName: String
     
     var body: some View {
@@ -13,10 +25,10 @@ struct InfoView: View {
             .overlay(HStack {
                 Image(systemName: imageName)
                     .foregroundColor( Color(red: 0.03, green: 0.03, blue: 0.35))
-                Link(destination: URL(string: url)!) {
+             
                     Text(text)
                         .foregroundColor(.black)
-                }
+                
                 
             })
             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -30,14 +42,10 @@ struct InfoView_Previews: PreviewProvider {
             Color(red: 0.03, green: 0.03, blue: 0.35)
                 .edgesIgnoringSafeArea(.all)
             VStack{
-                InfoView(text: "123456789", url: "tel:123456789", imageName: "phone.fill")
-                InfoView(text: "email@gmail.com", url: "mailto:email@gmail.com", imageName: "envelope.fill")
+                InfoView(text: "123456789", imageName: "info.circle.fill")
+                InfoView(text: "email@gmail.com", imageName: "location.fill")
                 
             }
         }
-        InfoView(text: "123456789", url: "tel:123456789", imageName: "phone.fill")
-            .previewLayout(.sizeThatFits)
-        InfoView(text: "email@gmail.com", url: "mailto:email@gmail.com", imageName: "envelope.fill")
-            .previewLayout(.sizeThatFits)
     }
 }

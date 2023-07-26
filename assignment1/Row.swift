@@ -1,9 +1,14 @@
-//
-//  ContactRow.swift
-//  ContactList
-//
-//  Created by Tom Huynh on 7/13/22.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Le Anh Quan
+  ID: 3877457
+  Created  date: dd/mm/yyyy (e.g. 31/07/2023)
+  Last modified: dd/mm/yyyy (e.g. 05/08/2023)
+  Acknowledgement: Acknowledge the resources that you use here.
+*/
 
 import SwiftUI
 
@@ -15,8 +20,8 @@ struct Row: View {
             contact.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            VStack {  Text(contact.name)
-                Text(contact.name)
+            VStack(alignment: .leading, spacing: 6) {  Text(contact.name)
+                Text(contact.occupation)
             }
             
         }

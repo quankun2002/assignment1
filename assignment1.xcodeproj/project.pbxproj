@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB399DE62A65622800FB2A0E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB399DE52A65622800FB2A0E /* SwiftUIView.swift */; };
+		AB399DE62A65622800FB2A0E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB399DE52A65622800FB2A0E /* ListView.swift */; };
 		AB399E262A6E1B7C00FB2A0E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB399E252A6E1B7C00FB2A0E /* InfoView.swift */; };
 		AB399E2A2A6F5E2D00FB2A0E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB399E292A6F5E2D00FB2A0E /* CircleImage.swift */; };
 		AB399E2C2A6F5EBA00FB2A0E /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB399E2B2A6F5EBA00FB2A0E /* Row.swift */; };
@@ -16,9 +16,10 @@
 		AB399E352A6F661600FB2A0E /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = AB399E342A6F661600FB2A0E /* contacts.json */; };
 		AB399E392A6F67A600FB2A0E /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB399E382A6F67A600FB2A0E /* ContactCard.swift */; };
 		AB399E3D2A6F682600FB2A0E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB399E3C2A6F682600FB2A0E /* MapView.swift */; };
+		AB399E3F2A710AA100FB2A0E /* BungeeSpice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB399E3E2A710AA100FB2A0E /* BungeeSpice-Regular.ttf */; };
+		AB399E422A7201D700FB2A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB399E412A7201D700FB2A0E /* Assets.xcassets */; };
 		AB8F3F2A2A64F592002055F5 /* assignment1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3F292A64F592002055F5 /* assignment1App.swift */; };
 		AB8F3F2C2A64F592002055F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3F2B2A64F592002055F5 /* ContentView.swift */; };
-		AB8F3F2E2A64F592002055F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8F3F2D2A64F592002055F5 /* Assets.xcassets */; };
 		AB8F3F312A64F592002055F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8F3F302A64F592002055F5 /* Preview Assets.xcassets */; };
 		AB8F3F3B2A64F593002055F5 /* assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3F3A2A64F593002055F5 /* assignment1Tests.swift */; };
 		AB8F3F452A64F593002055F5 /* assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3F442A64F593002055F5 /* assignment1UITests.swift */; };
@@ -43,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB399DE52A65622800FB2A0E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		AB399DE52A65622800FB2A0E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		AB399E252A6E1B7C00FB2A0E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		AB399E292A6F5E2D00FB2A0E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		AB399E2B2A6F5EBA00FB2A0E /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
@@ -52,10 +53,12 @@
 		AB399E342A6F661600FB2A0E /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
 		AB399E382A6F67A600FB2A0E /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
 		AB399E3C2A6F682600FB2A0E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AB399E3E2A710AA100FB2A0E /* BungeeSpice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeSpice-Regular.ttf"; sourceTree = "<group>"; };
+		AB399E402A710ABC00FB2A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB399E412A7201D700FB2A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8F3F262A64F592002055F5 /* assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8F3F292A64F592002055F5 /* assignment1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1App.swift; sourceTree = "<group>"; };
 		AB8F3F2B2A64F592002055F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AB8F3F2D2A64F592002055F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8F3F302A64F592002055F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB8F3F362A64F592002055F5 /* assignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8F3F3A2A64F593002055F5 /* assignment1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1Tests.swift; sourceTree = "<group>"; };
@@ -122,11 +125,13 @@
 		AB8F3F282A64F592002055F5 /* assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				AB399E402A710ABC00FB2A0E /* Info.plist */,
 				AB399E2D2A6F5EEC00FB2A0E /* model */,
 				AB8F3F2B2A64F592002055F5 /* ContentView.swift */,
-				AB8F3F2D2A64F592002055F5 /* Assets.xcassets */,
 				AB8F3F2F2A64F592002055F5 /* Preview Content */,
-				AB399DE52A65622800FB2A0E /* SwiftUIView.swift */,
+				AB399DE52A65622800FB2A0E /* ListView.swift */,
+				AB399E3E2A710AA100FB2A0E /* BungeeSpice-Regular.ttf */,
+				AB399E412A7201D700FB2A0E /* Assets.xcassets */,
 				AB399E252A6E1B7C00FB2A0E /* InfoView.swift */,
 				AB399E292A6F5E2D00FB2A0E /* CircleImage.swift */,
 				AB399E2B2A6F5EBA00FB2A0E /* Row.swift */,
@@ -266,9 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB399E3F2A710AA100FB2A0E /* BungeeSpice-Regular.ttf in Resources */,
 				AB8F3F312A64F592002055F5 /* Preview Assets.xcassets in Resources */,
+				AB399E422A7201D700FB2A0E /* Assets.xcassets in Resources */,
 				AB399E352A6F661600FB2A0E /* contacts.json in Resources */,
-				AB8F3F2E2A64F592002055F5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +302,7 @@
 				AB399E262A6E1B7C00FB2A0E /* InfoView.swift in Sources */,
 				AB8F3F2C2A64F592002055F5 /* ContentView.swift in Sources */,
 				AB8F3F2A2A64F592002055F5 /* assignment1App.swift in Sources */,
-				AB399DE62A65622800FB2A0E /* SwiftUIView.swift in Sources */,
+				AB399DE62A65622800FB2A0E /* ListView.swift in Sources */,
 				AB399E2C2A6F5EBA00FB2A0E /* Row.swift in Sources */,
 				AB399E312A6F5F5B00FB2A0E /* modelData.swift in Sources */,
 				AB399E2F2A6F5F1800FB2A0E /* Contact.swift in Sources */,
@@ -463,6 +469,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = assignment1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +498,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = assignment1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
